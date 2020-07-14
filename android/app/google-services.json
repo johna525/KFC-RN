@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "974960886280",
+    "firebase_url": "https://kfc-1010.firebaseio.com",
+    "project_id": "kfc-1010",
+    "storage_bucket": "kfc-1010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974960886280:android:6f9b857bd20411a1",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974960886280-m4ojkajivokf93e5a087lco9t4sl5chs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app",
+            "certificate_hash": "13c581910fa08aafc9943129f1061f94fe59483c"
+          }
+        },
+        {
+          "client_id": "974960886280-26eqqatso3stjkmlptuog0g1iejj1fcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpN_nL1nYMvCHkdQMlE5JDV4efa3l01nQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974960886280-26eqqatso3stjkmlptuog0g1iejj1fcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "kfcappapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognitoe68da972",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "kfc-app-20190312111341-authRole",
+            "UnauthRoleArn": "arn:aws:iam::431960672306:role/kfc-app-20190312111341-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::431960672306:role/kfc-app-20190312111341-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "kfc-app-20190312111341-deployment",
+            "UnauthRoleName": "kfc-app-20190312111341-unauthRole",
+            "StackName": "kfc-app-20190312111341",
+            "StackId": "arn:aws:cloudformation:eu-central-1:431960672306:stack/kfc-app-20190312111341/e506c1c0-44b7-11e9-b50c-0649507b8a60"
+        },
+        "categories": {
+            "auth": {
+                "cognitoe68da972": {}
+            }
+        }
+    }
+}

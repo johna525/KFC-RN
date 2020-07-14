@@ -1,0 +1,13 @@
+{
+    "bucketName": "kfc1010mvpstoragebucket",
+    "authPolicyName": "s3_amplify_caace7f1",
+    "unauthPolicyName": "s3_amplify_caace7f1",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": "r"
+}

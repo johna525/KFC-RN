@@ -1,0 +1,99 @@
+{
+  "steps": [
+    {
+      "defaultTitle": "Choose a value",
+      "defaultDescription": "Select one of the KFC values to recognize your colleague for.",
+      "nextLabel": "Next"
+    },
+    {
+      "title": "Choose a message",
+      "nextLabel": "Next"
+    },
+    {
+      "title": "Edit content",
+      "nextLabel": "Send"
+    }
+  ],
+  "values": [
+    {
+      "title": "Authenticity",
+      "description": "Always being your best self.",
+      "id": "authenticity"
+    },
+    {
+      "title": "Grit",
+      "description": "Showing real perseverance, determination and resilence.",
+      "id": "grit"
+    },
+    {
+      "title": "Hardwork",
+      "description": "Working tirelessly with the team to deliver amazing standards and service for our guests.",
+      "id": "hardwork"
+    },
+    {
+      "title": "Southern Hospitality",
+      "description": "Always delivering five star service and going the extra mile for guests.",
+      "id": "hospitality"
+    },
+    {
+      "title": "Integrity",
+      "description": "Going the extra mile and being proud to deliver excellence.",
+      "id": "integrity"
+    },
+    {
+      "title": "Generosity",
+      "description": "Showing generosity in your work and gives great coaching and has a 'take the team with you' mindset.",
+      "id": "generosity"
+    }
+  ],
+  "messages": [
+    "Great job! 👍🏼",
+    "You’re a star! 🌟✨",
+    "Thanks for all your hard work 👊",
+    "Keep up the good work 🙌",
+    "You've been so helpful! 🙏"
+  ],
+  "contentSelection": [
+    {
+      "id": "gif",
+      "text": "Add a gif",
+      "removeText": "Remove gif",
+      "icon": "gif"
+    },
+    {
+      "id": "image",
+      "text": "Add image",
+      "removeText": "Remove image",
+      "icon": "image"
+    },
+    {
+      "id": "camera",
+      "text": "Take a picture",
+      "removeText": "Remove image",
+      "icon": "camera"
+    },
+    {
+      "id": "color",
+      "text": "Add background colour",
+      "removeText": "Remove background colour",
+      "icon": "brush"
+    }
+  ],
+  "contentTypes": {
+    "gif": [
+      "gifNuggetGuru",
+      "gifDancingColonel",
+      "gifYouAreTheBest",
+      "gifYay",
+      "gifHappyColonol",
+      "gifOMGColonol",
+      "gifLOLBean",
+      "giWWE",
+      "giWWEDrop",
+      "gifSpinningChicken",
+      "gifStaticChicken",
+      "gifHappyFriedChicken"
+    ],
+    "color": ["#513fff", "#94cd77", "#ff6c20"]
+  }
+}

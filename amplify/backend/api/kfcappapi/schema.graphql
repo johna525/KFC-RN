@@ -1,0 +1,163 @@
+type Announcement @model {
+  id: ID!
+  name: String
+  posts: [Post] @connection(name: "AnnouncementPosts")
+  announcementImage: String
+  announcementMessage: String
+  storeId: String
+  likes:  Int
+  liked: Int
+}
+
+type Photo @model {
+  id: ID!
+  uri: String
+  fullsize: String
+  thumbnail: String
+}
+
+interface User{
+  id: ID!
+  username: String!
+  
+}
+
+
+type Feedback @model {
+  id: ID!
+  createdAt: AWSDateTime
+  feedbackMessage: String
+  senderId: String
+}
+
+
+
+type Post @model {
+  id: ID!
+  announcement: Announcement @connection(name: "AnnouncementPosts")
+  comments: [Comment] @connection(name: "PostComments", keyField: "postId")
+  createdAt: AWSDateTime
+  postMessage: String
+  postMediaType: MediaType
+  postMediaValue: String
+  postOwnerUsername: String!
+  postOwnerId: String!
+  postContent: String!
+  likes: [Like] @connection(name: "PostLikes")
+  liked: Boolean
+  senderId: String
+  storeId: String
+}
+
+type Like @model {
+  id: ID!
+  numberLikes: Int!
+  likeOwnerUsername: String!
+  likeOwnerId: String!
+  post: Post @connection(name: "PostLikes")
+}
+
+type Comment @model {
+  id: ID!
+  content: String
+  post: Post @connection(name: "PostComments", keyField: "postId")
+}
+
+
+type Recognition @model {
+  id: ID!
+  description: String
+  completed: Boolean
+  media: [MediaType]
+  mediaValue: String
+  createdAt: AWSDateTime
+  senderName: String
+  receiverName: String
+  recognitionValue: String
+  recognitionMessage: String
+  mediaType: MediaType
+  senderId: String
+  receiverId: String
+  employee: Employee @connection(name: "EmployeeRecognitions", keyField: "employeeId")
+  likesRecognition: [RecognitionLike] @connection(name: "RecognitionLikes")
+}
+
+type RecognitionLike @model {
+  id: ID!
+  numberLikes: Int!
+  likeOwnerUsername: String!
+  likeOwnerId: String!
+  recognition: Recognition @connection(name: "RecognitionLikes")
+}
+
+
+type Employee @model @searchable @versioned{
+  id: ID!
+  name: String 
+  profileImageUri: String
+  userEmailAddress: String
+  termsAccepted: Boolean
+  username: String
+  active: Boolean
+  createdAt: AWSDateTime
+  pointCount: Int
+  recognitionCount: Int
+  badgeCount: Int
+  posts: [Post]
+  rewardCount: Int
+  rewards: [Reward] @connection(name: "EmployeeRewards", keyField: "employeeId")
+  badges: [Badge] @connection(name: "EmployeeBadges" , keyField: "employeeId")
+  recognitions: [Recognition] @connection(name: "EmployeeRecognitions" , keyField: "employeeId")
+  yumgivenname: String
+  yumdob: String
+  yumusertype: String
+  yumstoreid: String
+  profileCompletionStatus: Boolean
+}
+
+type Badge @model {
+  id: ID!
+  name: String
+  description: String
+  likes: Int
+  createdAt: AWSDateTime
+  storeId: String
+  receiverName: String
+  receiverId: String
+  employee: Employee @connection(name: "EmployeeBadges", keyField: "employeeId")
+  likesBadge: [BadgeLike] @connection(name: "BadgeLikes")
+}
+
+type BadgeLike @model {
+  id: ID!
+  numberLikes: Int!
+  likeOwnerUsername: String!
+  likeOwnerId: String!
+  badge: Badge @connection(name: "BadgeLikes")
+}
+
+
+type Reward @model {
+  id: ID!
+  name: String
+  description: String
+  completed: Boolean
+  createdAt: AWSDateTime
+  receiverName: String
+  employee: Employee @connection(name: "EmployeeRewards", keyField: "employeeId")
+}
+
+
+
+
+type StoreId @model {
+  id: ID!
+  name: String
+}
+
+enum MediaType {
+    gif
+    color
+    image
+}
+

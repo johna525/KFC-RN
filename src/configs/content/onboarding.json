@@ -1,0 +1,19 @@
+{
+  "steps": [
+    {
+      "title": "Take a picture so your team mates know it’s you!",
+      "description": "Choose a selfie, your favourite picture or an avatar.",
+      "nextLabel": "Next"
+    },
+    {
+      "title": "Let us know",
+      "description": "Share your birthday with us so we can celebrate together.",
+      "nextLabel": "Next"
+    },
+    {
+      "title": "We'd love to talk more",
+      "description": "We want to give you updates on your rewards and information about your restaurant.",
+      "nextLabel": "Finish"
+    }
+  ]
+}

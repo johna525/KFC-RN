@@ -1,0 +1,89 @@
+{
+  "default": {
+    "constants": {
+      "authToken": "authorization",
+      "user": "user",
+      "token": "token",
+      "refreshToken": "refreshToken",
+      "broadcastAlert": "broadcastAlert",
+      "broadcastHeaderRightClick": "broadcastHeaderRightClick",
+      "broadcastSecureScreen": "broadcastSecureScreen",
+      "broadcastEnterForeground": "broadcastEnterForeground",
+      "broadcastSyncComplete": "broadcastSyncComplete"
+    },
+    "eventCategories": {
+      "buttonClick": "Button Click",
+      "account": "Account",
+      "recognition": "Recognition"
+    },
+    "google": {
+      "analyticsId": "UA-134510104-2",
+      "events": {
+        "confirmEmail": "Sign up - Confirm Email Address",
+        "splashPageSignUp": "Splash Page - Go to Sign Up",
+        "splashPageSignIn": "Splash Page - Go to Sign In",
+        "signIn": "Sign in - Sign in with account",
+        "signInGoToSignUp": "Sign in - Go to Sign Up",
+        "signUp": "Sign up - Create account",
+        "signUpGoToSignIn": "Sign up - Go to Sign Up",
+        "closeBadge": "Badge - Close",
+        "learningZoneOpen": "Learning Zone - Open External Link",
+        "onboardingStepNext": "Onboarding - Next",
+        "onboardingStepBack": "Onboarding - Back",
+        "onboardingAddProfileImage": "Onboarding - Add profile image",
+        "onboardingToggleAcceptTerms": "Onboarding - Toggle Accept Terms",
+        "notificationOpen": "Notifications - Open Notification",
+        "notificationDelete": "Notifications - Delete Notification",
+        "profileSignOut": "Profile - Sign Out",
+        "profileEdit": "Profile - Edit Open",
+        "profileEditImage": "Profile - Edit Profile Image",
+        "profileEditCancel": "Profile - Cancel Edit",
+        "profileEditSave": "Profile - Save Edit",
+        "recognitionClose": "Recognition - Close",
+        "openSendRecognition": "Open Send Recognition Screen",
+        "sendRecognitionStepBack": "Send Recognition - Back",
+        "sendRecognitionStepNext": "Send Recognition - Next",
+        "sendRecognitionSelectMessage": "Send Recognition - Select Message",
+        "sendRecognitionSelectValue": "Send Recognition - Select Value",
+        "sendRecognitionSelectContentType": "Send Recognition - Select Content Type",
+        "sendRecognitionDeselectContentType": "Send Recognition - Deselect Content Type",
+        "sendRecognitionSelectContentValue": "Send Recognition - Select Content Value",
+        "sendRecognitionSelectGif": "Send Recognition - Select Gif",
+        "sendRecognitionSelectBackgroundColor": "Send Recognition - Select Background Color",
+        "alertOk": "Alert - Ok",
+        "alertCancel": "Alert - Cancel",
+        "submitFeedback": "Submit Feedback",
+        "goBack": "Go Back",
+        "close": "Close"
+      }
+    },
+    "accountEvents": {
+      "unsuccessfulLogin": "Login Failed",
+      "successfulLogin": "Login Successful"
+    },
+    "recognitionEvents": {
+      "recognitionSent": "Recognition"
+    },
+    "buttonNames": {
+      "aTrackedButton": "Unique Button Name"
+    },
+    "badgeTiers": [
+      {
+        "minValue": 5,
+        "id": "newbie"
+      },
+      {
+        "minValue": 30,
+        "id": "hatchling"
+      },
+      {
+        "minValue": 300,
+        "id": "chick"
+      },
+      {
+        "minValue": 1010,
+        "id": "chicken"
+      }
+    ]
+  }
+}

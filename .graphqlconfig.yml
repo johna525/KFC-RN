@@ -1,0 +1,16 @@
+projects:
+  kfcappapi:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - 'y'
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        graphQLApiId: bacf7ych2jcrpbsvqc3u3di3xi
+      endpoints:
+        prod: >-
+          https://nk7vsimanrhk5anjsoyvfnf7ra.appsync-api.eu-central-1.amazonaws.com/graphql

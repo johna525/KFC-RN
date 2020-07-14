@@ -1,0 +1,79 @@
+{
+  "newbie": {
+    "name": "Newbie",
+    "title": "Newbie Badge",
+    "message": "Welcome to the team",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "hatchling": {
+    "name": "Hatchling",
+    "title": "Hatchling Badge",
+    "message": "You're getting the hang of this",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "chick": {
+    "name": "Chick",
+    "title": "Chick Badge",
+    "message": "Keep going, you're doing a great job",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "chicken": {
+    "name": "Chicken",
+    "title": "Chicken Badge",
+    "message": "Wow, look at you",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "firstLikeGiven": {
+    "name": "First Like Given",
+    "title": "High five",
+    "message": "Great support",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "firstMessageSent": {
+    "name": "First Message Sent",
+    "title": "On it's way",
+    "message": "Great way to connect",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "firstMessageReceived": {
+    "name": "First Message Received",
+    "title": "You've got mail",
+    "message": "Check it out",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "firstPost": {
+    "name": "First Post",
+    "title": "Contributor",
+    "message": "Share the love",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "firstRecognitionReceived": {
+    "name": "First Recognition Received",
+    "title": "You're a star!",
+    "message": "Great job",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "firstRecognitionSent": {
+    "name": "First Recognition Sent",
+    "title": "Nice one!",
+    "message": "This is what it's all about",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  },
+  "firstRewardReceived": {
+    "name": "First Reward Received",
+    "title": "First Reward Received Badge",
+    "message": "First Reward Received!",
+    "cta": "Very well deserved",
+    "pointValue": 5
+  }
+}
