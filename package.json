@@ -28,7 +28,7 @@
     "graphql-tag": "^2.10.1",
     "html-parse-stringify": "^1.0.3",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "mime-types": "^2.1.21",
     "moment-mini": "^2.22.1",
     "native-base": "^2.10.0",
